@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="styles2.css">
+</head>
+<body>
+
+    <div id = "container1"></div>
+    <button id = "myButton">Click here</button>
+    <div id = "Lingko"></div>
+   
+   <script>
+    
+    const ul_el = document.createElement("ul");
+    el.appendChild(ul_el);
+
+    const fruits = ["orange", "apple", "pear", "mango"];
+
+    for (const fruits of fruits) {
+        const li_el = document.createElement("li");
+        li_el.innerText = fruit;
+        ul_el.appendChild(li_el);     
+    }
+    
+    const btn = document.getElementById("myButton");
+    btn.addEventListener('click', function() {
+        new_el.style.background = "pink";
+    })
+    
+    
+    
+    
+    ul_el,addEventListener("mouseover", function () {
+        ul_el.style.background = "red" ; 
+    })
+       
+    ul_el.addEventListener("mouseout", function() {
+        ul_el.style.background = "cyan";
+    })
+    </script>
+</body>
+
+</html>
